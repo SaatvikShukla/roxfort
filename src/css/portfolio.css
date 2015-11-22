@@ -1,0 +1,91 @@
+
+/************* Skills class and subs ******-*/
+
+.portfolio{
+	padding:2px;
+	padding-left:40px;
+	padding-top:15px;
+	padding-right:40px;
+	padding-bottom: 13px
+	border:0px solid #CCC;
+	width:0 auto;
+	margin:0px auto;
+}
+
+#portfolio_main {
+	font-size: 50px;
+	padding: 2px;
+	padding-left:25px;
+	padding-top:8px;
+	padding-right:15px;
+	padding-bottom: 8px
+	text-align:center;
+	height: 60px;
+	font-family: LongTime;
+
+}
+
+
+#portfolio_Mcontent {
+	text-align: center;
+	font-size: 16.5px;
+	padding: 6px;
+	padding-left:25px;
+	padding-top:8px;
+	padding-right:15px;
+	padding-bottom: 8px
+	text-align:center;
+	height: 74px;
+}
+
+#portfolio_body {
+	padding: 5px;
+	padding-left:30px;
+	padding-top:8px;
+	padding-right:8px;
+	padding-bottom: 15px
+	height: 84px;
+}
+
+.portfolio_wrapper {
+	padding:30px;
+	margin: 0 auto;
+}
+.portfolio_image_r1 {
+	height: 12%;
+	width: 21.6%;
+	padding:8px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	position:static;
+    transition:all 0.25s ease;
+}
+
+.portfolio_image_r2 {
+	height: 17%;
+	width: 30.6%;
+	padding:8px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	position:static;
+    transition:all 0.25s ease;
+}
+
+.portfolio_image_r3 {
+	height: 25%;
+	width: 45%;
+	padding:8px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	position:static;
+    transition:all 0.25s ease;
+}
+.portfolio_image_r1:hover {
+	-webkit-transform:scale(1.125)
+}
+.portfolio_image_r2:hover {
+	-webkit-transform:scale(1.125)
+}
+.portfolio_image_r3:hover {
+	-webkit-transform:scale(1.125)
+}

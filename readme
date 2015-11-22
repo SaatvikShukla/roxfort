@@ -1,0 +1,35 @@
+roxfort
+| 
+|--->navbarTop                                                              
+|      |->mName                                                                                            
+|      |->navbarTop-menu                                                                                       
+|                                                                                                                            
+|--->main-slideshow                                                                                                                            
+|                                                                                                                            
+|--->about                                                                                                                            
+|     |->aboutUs_main                                                                                                                       
+|     |->aboutUs_Mcontent                                                                                                                                                     
+|     |->aboutUs_body                                                                                                                                                      
+|     |->aboutUs_people   
+|				|-> userProfile
+|						|-> userProfile1
+|						|-> userProfile2
+|						|-> userProfile3
+|						|-> userProfile4
+|
+|						|-> userProfile5
+|						
+|--->skills						                                                                                                                   
+|     |->skills_main
+|     |->skills_Mcontent                                                                                                                               
+|     |->skills_body                                                                                                                                     
+|           |->skills_body_wrapper                                                                                                                               
+|                 |-> the skill perc indicators(n)                                                                                                                         
+|                                                                                                                                          
+|                                                                                                                                          
+|                                                                                                                                          
+|                                                                                                                                          
+|                                                                                                                                          
+|                                                                                                                                          
+|                                                                                                                                          
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  

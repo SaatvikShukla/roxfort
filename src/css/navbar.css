@@ -1,0 +1,83 @@
+
+/*************************************************************
+ *  navbar | navbarTop | navbarTop Content attributes*********
+ * ***********************************************************/
+
+.navbarTop { 
+	padding:2px;
+	padding-left:40px;
+	padding-top:15px;
+	padding-right:40px;
+	padding-bottom: 13px
+	text-align:left;
+	background:#2B2B2B;
+	border:0px solid #CCC;
+	width:0 auto;
+	margin:0px auto;
+	color: white;
+	font-size: 28px;
+	height: 40px;
+	/*http://designshack.net/articles/css/mastering-mouse-enter-and-exit-events-with-css-transitions/*/
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+
+   transition:0.50s;
+	}
+	
+.navbarTop:hover {
+    opacity:0.5;   
+
+	padding:13px;
+	padding-left:50px;
+	padding-top:15px;
+	padding-right:40px;
+	padding-bottom: 15px
+	border:0px solid #CCC;
+	width:0 auto;
+	margin:0px auto;
+	display:block;
+	color: black;
+	height: 80px;
+    opacity:1;   
+    font-size: 40px;
+	background: gray;
+		/*http://designshack.net/articles/css/mastering-mouse-enter-and-exit-events-with-css-transitions/*/
+	-webkit-transform: linear;
+	-moz-transform: linear;
+	-o-transform: linear;
+	-ms-transform:linear;
+	transform: linear;
+	}
+	
+.navbarTop:hover ~ #navbarTop-menu{
+	/*display: inline-block;*/
+	
+	/*http://designshack.net/articles/css/mastering-mouse-enter-and-exit-events-with-css-transitions/*/
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	text-align:right;
+  	color: transparent;
+	width:0 auto;
+	height: 0px;
+	font-size: 12px;
+	
+}
+				
+#navbarTop-menu:hover {
+	display: block;
+	/*height: 180px;*/
+	color: #2B2B2B;				
+	width:0 auto;
+	
+	opacity:4;
+	/*http://designshack.net/articles/css/mastering-mouse-enter-and-exit-events-with-css-transitions/*/
+	-webkit-transform: linear;
+	-moz-transform: linear;
+	-o-transform: linear;
+	-ms-transform:linear;
+	transform: linear;
+}

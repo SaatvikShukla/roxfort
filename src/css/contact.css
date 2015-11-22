@@ -1,0 +1,87 @@
+
+/************* Skills class and subs ******-*/
+
+.contact{
+	padding:2px;
+	padding-left:40px;
+	padding-top:15px;
+	padding-right:40px;
+	padding-bottom: 13px
+	border:0px solid #CCC;
+	width:0 auto;
+	margin:0px auto;
+}
+
+#contact_main {
+	font-size: 55px;
+	padding: 2px;
+	padding-left:25px;
+	padding-top:8px;
+	padding-right:15px;
+	padding-bottom: 8px
+	text-align:center;
+	height: 60px;
+	font-family: LongTime;
+
+}
+
+
+#contact_Mcontent {
+	text-align: center;
+	font-size: 16.5px;
+	padding: 6px;
+	padding-left:25px;
+	padding-top:8px;
+	padding-right:15px;
+	padding-bottom: 8px
+	text-align:center;
+	height: 94px;
+}
+
+#contact_body {
+	padding: 6px;
+	padding-left:80px;
+	padding-top:8px;
+	padding-right:15px;
+	padding-bottom: 15px
+	height: 84px;
+}
+
+#contactForm,#info,#brand,#contactDesc {
+	width: 23%;
+	float: left;
+	text-align: center;
+	height: 450px;
+	margin: 10px;
+}
+
+#contactForm {
+	text-align: justify;
+	width: auto;
+	padding: 7px;
+
+}
+
+#info{
+	
+}
+
+#brand {
+	overflow: hidden;
+		font-size: 24px;
+	font-weight: bold;
+}
+
+#contactDesc {
+	font-size: 16px;
+}
+#placeBlock {
+	background: red;
+	text-align: center;
+	height: px;
+	padding: 15px;
+	opacity: 0.75;
+	color: white;
+	font-size: 24px;
+	font-weight: bold;
+}

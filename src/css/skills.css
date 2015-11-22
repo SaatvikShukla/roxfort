@@ -1,0 +1,97 @@
+
+/************* Skills class and subs ******-*/
+
+.skills{
+	padding:2px;
+	padding-left:40px;
+	padding-top:15px;
+	padding-right:40px;
+	padding-bottom: 13px
+	border:0px solid #CCC;
+	width:0 auto;
+	margin:0px auto;
+}
+
+#skills_main {
+	font-size: 50px;
+	padding: 2px;
+	padding-left:25px;
+	padding-top:8px;
+	padding-right:15px;
+	padding-bottom: 8px
+	text-align:center;
+	height: 60px;	
+	font-family: LongTime;
+}
+
+
+#skills_Mcontent {
+	text-align: center;
+	font-size: 16.5px;
+	padding: 6px;
+	padding-left:25px;
+	padding-top:8px;
+	padding-right:15px;
+	padding-bottom: 8px
+	text-align:center;
+	height: 94px;
+}
+
+#skills_body {
+	padding: 6px;
+	padding-left:25px;
+	padding-top:8px;
+	padding-right:15px;
+	padding-bottom: 8px
+	height: 84px;
+	font-family: LongTime;
+}
+
+#skills_body_wrapper {
+	padding: 0px;
+	padding-left:0px;
+	padding-top:0px;
+	padding-right:0px;
+	padding-bottom: 0px
+	font-family: LongTime;
+	font-weight: bold;
+}
+
+#progressBarR {
+        width: 22%;
+        height: 22px;
+        border: 0.5px solid #111;
+        background-color: #FFDADA;
+        margin-left:50%;
+		font-family: LongTime;   
+}
+ 
+#progressBarR div {
+        height: 100%;
+        color: #fff;
+        text-align: right;
+        line-height: 22px; /* same as #progressBar height if we want text middle aligned */
+        width: 0;
+        background-color: #ff0000;
+		font-family: LongTime;       
+
+}
+
+#progressBarL {
+        width: 22%;
+        height: 22px;
+        border: 0.5px solid #111;
+        background-color: #FFDADA;
+        margin-left:22%;
+        font-family: LongTime;
+}
+ 
+#progressBarL div {
+        height: 100%;
+        color: #fff;
+        text-align: right;
+        line-height: 22px; /* same as #progressBar height if we want text middle aligned */
+        width: 0;
+        background-color: #ff0000;
+        font-family: LongTime;
+}

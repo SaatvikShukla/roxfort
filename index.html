@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+    
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	  	<meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Roxfort</title>
+        <meta name="description" content="Official website of Pune Based Startup in domain of Event Management">
+        <link rel="shortcut icon" href="src/ico/favicon.ico">
+        <link rel="stylesheet" href="src/css/stylesheet.css">
+        <link rel="stylesheet" href="src/css/services.css">
+        <link rel="stylesheet" href="src/css/about.css">
+        <link rel="stylesheet" href="src/css/skills.css">
+        <link rel="stylesheet" href="src/css/whyus.css">
+        <link rel="stylesheet" href="src/css/portfolio.css">
+        <link rel="stylesheet" href="src/css/pricing.css">
+        <link rel="stylesheet" href="src/css/contact.css">
+		<link rel="stylesheet" href="src/css/Font-Awesome/css/font-awesome.min.css">
+		<script src="src/ajax/libs/jquery/jquery.min.js"></script>
+		<script src="src/ajax/libs/modernizr/modernizr.js"></script>
+		<script src="src/js/loading.js"></script>
+
+        <script type="text/javascript">
+
+				  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+				  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+				  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+				  })(window,document,'script','http://www.google-analytics.com/analytics.js','ga');
+				
+				  ga('create', 'UA-60324390-1', 'auto');
+				  ga('send', 'pageview');
+
+
+        			
+      				function loadResolution() {
+						w = (screen.availWidth);
+						h = (screen.availHeight);
+						loadResolutionNavbarTop(w)
+						loadResolutionSSmain(w,h)
+						loadResolutionAbout(w,h)
+						loadResolutionSkills(w,h)
+					 
+					}
+        			
+        			function loadResolutionSSmain(w,h) {
+        				mainSS= document.getElementById('main-slideshow');
+  						hSS=h+12
+  						wSS=w+12
+  						mainSS.style.width = wSS +"px";
+ 						mainSS.style.height = hSS +"px";	
+        			}
+        			
+        			function loadResolutionNavbarTop(w) {
+        				navbarTop= document.getElementsByClassName('navbarTop');
+        				navbarTop.width = w +"px";
+        				navbarTop.height = 12+ "px";        
+        								
+        			}
+        			
+        			function loadResolutionAbout(w,h) {
+						about= document.getElementsByClassName('about');
+  						about.width = w +"px";
+ 						about.height = h +"px";     
+					}
+					
+					function loadResolutionSkills(w,h) {
+						document.getElementsByClassName('skills').width = w +"px";
+ 						document.getElementsByClassName('skills').height = h +"px";     
+					}
+
+					function checkall() {
+						checkName()
+						checkEmail()
+					}
+
+					function checkName(){
+						var nstr=document.getElementById('uName').value
+						var nPatt= /^[a-zA-Z ]+$/
+						if (nPatt.test(nstr)) {
+							return
+						}
+						else {
+							alert('Err. Invalid Name. No special Charactors or Numbers allowed in Name')
+						}
+					}
+
+					function checkEmail () {
+						//var str=document.contactForm.uEmail.value
+						str=document.getElementById('uEmail').value
+						var ePatt=/[a-zA-Z0-9]+@+[a-zA-Z]+.[a-zA-Z]/
+						if (ePatt.test(str)) {
+							return
+						}
+						else {
+							alert('Err. Invalid Email')
+						}
+					}
+			
+					
+        </script>
+			
+		
+    </head>
+    <body onload="loadResolution()" style="margin:0 auto;overflowY:hidden">
+        <div class="loading"></div>
+        <div class="navbarTop">
+        
+				<div id="mName"style="float:left;">Roxfort</div>
+				<i class="fa fa-angle-double-down" style="float:right;padding-top:20px;"></i>
+
+				<br><div id="navbarTop-menu"><a href="#mainSSlink">Home</a>&nbsp;&nbsp; <a href="#aboutuslink">AboutUs</a> &nbsp;&nbsp; <a href="#skillslink">OurSkills</a> &nbsp;&nbsp; <a href="#serviceslink">OurServices</a> &nbsp;&nbsp; <a href="#whyuslink">WhyUs</a>  &nbsp;&nbsp; <a href="#portfoliolink">Portfolio</a> &nbsp;&nbsp; <a href="#pricinglink">Plans</a> &nbsp;&nbsp; <a href="#contactlink">ContactUs</a> </div>
+				
+        </div>
+        
+        <div id="main-slideshow" style="overflow:hidden" onload="">
+        
+        		        
+        </div>
+
+<!--                                ************************************                       -->
+
+		  <div  id="aboutuslink" class="about">
+		
+  		  <div id="aboutUs_main">
+
+				<center><font color="red">  About </font> Us</center>
+	  
+		  </div>
+			
+			<div id="aboutUs_Mcontent">
+				<center>Roxfort Group is a dynamic team of talented individuals offering a variety of creative services in the field of event media and networking. Be it sending invitation to your long guest list, capturing the event, or turning it into an indestructible souvenir for a lifetime, we do it all. Based in Pune and now in Luckow, possessing years of experience and skill we strive for providing you the best services of the highest consistency & quality, catering to all your needs. </center>
+			</div>
+
+			<div id="aboutUs_body">
+			<center>With unique features like fully-customizable Online Album with a completely custom domain name and event Newsfeeds, and relatively low and affordable price with the highest quality of work, we make sure that you are never disappointed;</center> 
+			</div>
+			
+			<div id="aboutUs_people">
+				
+  					  	<div class="userProfile1" id="1"
+								<center><img id="userProfileImage" src="src/aboutUser/userProfileImage/userProfileImage-1.jpg" alt=""></center>
+     							
+     								<p id="servicesBlock">Rishabh<br> Shukla</p>
+     								<h4> <center>CEO/<font color="red">  Founder </font></center> </h4>
+         					   <p>He runs this ship with a great sense of creativity, a keen eye for design</p><br><br><br><br><br>
+         					   <a href="#"><center><p class="learnMore">Know More</p></center></a>
+    						</div>
+    						
+     				 	<div class="userProfile2" id="2">
+     				 			<center><img id="userProfileImage" src="src/aboutUser/userProfileImage/userProfileImage-2.jpg" alt=""></center>
+     							<p id="servicesBlock">Saatvik <br>Shukla</p>
+     								<h4> <center>Web Developer/<font color="red">  Designer </font></center> </h4>
+     						       <p> A student from Profession. Android Developer, Web Developer, Calligraphist & Photographer,by passion </p><br><br>
+     						       <a href="#"><center><p class="learnMore">Know More</p></center></a>
+     						</div>
+     						
+ 	 					<div class="userProfile3" id="3">
+ 	 							<center><img id="userProfileImage" src="src/aboutUser/userProfileImage/userProfileImage-3.jpg" alt=""></center>
+     							<p id="servicesBlock">Anshit<br> Chaudhary</p>
+     								<h4> <center>Management<font color="red"> Head </font> </center> </h4>
+         					   <p>Armed with his natural charm, he ensures that our project roll out like clock work, and drinks many cups of coffee to the cause.</p><br><br>
+         					   <a href="#"><center><p class="learnMore">Know More</p></center></a>
+    	 					</div>
+    	 					
+ 	 					<div class="userProfile4" id="4">
+ 	 							<center><img id="userProfileImage" src="src/aboutUser/userProfileImage/userProfileImage-4.jpg" alt=""></center>
+     							<p id="servicesBlock">Naman <br>Bisht</p>
+     									<h4> <center>Creative <font color="red"> Head </font></center> </h4>
+          						  <p>When everything fails, this sentient life form belonging to the third rock comes to the rescue. Have no idea, no plan? Chill; This guy IS the backup plan. As he puts it, "Why fear when Bisht is here?"</p>
+          						  <a href="#"><center><p class="learnMore">Know More</p></center></a>
+    	 					</div>
+    	 					
+    	 				<div class="userProfile5" id="5">
+    	 						<center><img id="userProfileImage" src="src/aboutUser/userProfileImage/userProfileImage-5.jpg" alt=""></center>
+     							<p id="servicesBlock">Abhishek<br>Verma</p>
+     									<h4> <center>Technology<font color="red"> Head</font></center> </h4>
+          						  <p>When you stuck in with some devices call "Verma", our technology head is always on his toes to make the tech-part of the project </p><br><br>
+          						  <a href="#"><center><p class="learnMore">Know More</p></center></a>
+    	 					</div>
+    	 					
+			</div>
+			
+		</div>
+
+
+	<br><br>
+		<hr id="pageDivider">
+		
+		<div  id="skillslink" nkclass="skills">
+			<div id="skills_main">
+
+				<center><font color="red">Our </font> Skills</center>
+	  
+		   </div>
+		   
+		   <div id="skills_Mcontent">
+		   	With unique features like fully-customizable Online Album with a completely custom domain name and event Newsfeeds, and relatively low and affordable price with the highest quality of work, we make sure that you are never disappointed	 
+		   </div>	
+			
+			<div id="skills_body">
+				<div id="skills_body_wrapper" onmouseover="animateProgressBars()">
+					<br>
+				<!--- max width def: 225px-->					
+						<p style="margin-left:55%;"><font color="red">Photography</font> 70<font color="red">%</font></p>
+						<div id="progressBarR" class="photography"><div></div></div>
+						
+						<p style="margin-left:28%"><font color="red">VideoGraphy</font> 56<font color="red">%</font></p>
+						<div id="progressBarL" class="videography"><div></div></div>
+						
+						<p style="margin-left:55%">Event <font color="red">LiveStream</font> 85<font color="red">%</font></p>
+						<div id="progressBarR" class="eventlive"><div></div></div>
+						
+						<p style="margin-left:28%">Live <font color="red">Newsfeed</font> 92<font color="red">%</font></p>
+						<div id="progressBarL" class="liveNewsfeed"><div></div></div>
+						
+						<p style="margin-left:55%"><font color="red">Impressions</font> 65<font color="red">%</font></p>
+						<div id="progressBarR" class="impressions"><div></div></div>
+
+						<p style="margin-left:28%">Director's <font color="red">Cut</font> 95<font color="red">%</font></p>
+						<div id="progressBarL" class="dCut"><div></div></div>
+						
+						<p style="margin-left:52%">Web <font color="red">Design/Developement</font> 97<font color="red">%</font></p>
+						<div id="progressBarR" class="web"><div></div></div>
+						<br><br><br>
+					</div>
+			</div>
+		</div>
+		
+		<hr id="pageDivider">
+		  
+		  <div  id="serviceslink" class="services">
+		
+  		  <div id="services_main">
+
+				<center><font color="red">  Services </font></center>
+	  
+		  </div>
+			
+			<div id="services_Mcontent">
+				<center>At Roxfort Group, we offer you the prefect balance - the services of event media and networking with the agility of a product head company!</center>
+			</div>
+
+			<div id="services_wrapper">
+								<div class="services1">
+								<br><center> <i class="fa fa-connectdevelop fa-5x"></i> </center>    							
+     							<h2> <center><font color="red">Reliable</font></center></h2><br>
+     								
+     									<a href="#"><center><p class="learnMore">Learn More</p></center></a>
+
+     								
+	         					   	
+    						</div>
+    						
+     				 		<div class="services2">
+     				 			<center><br><i class="fa fa-ship fa-5x"></i></center>
+     							<h2><center><font color="red">Latest</font>Gadgets</center></h2><br>
+     									<a href="#"><center><p class="learnMore">Learn More</p></center></a>
+     						</div>
+     						
+ 	 						<div class="services3">
+ 	 							<center><br><i class="fa fa-street-view fa-5x"></i></center>
+     							<h2><center><font color="red">Experienced</font>Crew</center></h2><br>
+     								
+     									<a href="#"><center><p class="learnMore">Learn More</p></center></a>
+    	 					</div>
+    	 					
+ 	 						<div class="services4">
+ 	 							<center><br><i class="fa fa-skyatlas fa-5x"></i></center>
+     							<h2><center><font color="red">Highest</font> Quality</center></h2><br>
+     									<a href="#"><center><p class="learnMore">Learn More</p></center></a>
+    	 					</div>
+    	 					
+    	 					<div class="services5">
+    	 						<center><br><i class="fa fa-cogs fa-5x"></i></center>
+     							<h2><center><font color="red"> Unique</font></center></h2><br>
+     									
+     									<a href="#"><center><p class="learnMore">Learn More</p></center></a>
+    	 					</div>
+					
+				</div>
+			
+		</div>
+
+		<hr id="pageDivider">
+		
+		<div  id="whyuslink" class="whyus">
+			<div id="whyus_main">
+
+				<center><font color="red">Why</font>US</center>
+	  
+		   </div>
+		   
+		   <div id="whyus_Mcontent">
+		   		Because we believe in the Philosophy of, "Quality" and not "Quantity". <br>
+		   		And we believe that even small things,if done right,can do wonders.
+		   </div>	
+			
+			<div id="whyus_body">
+				
+				<div class="faq">
+					<dl>
+						<dt><img class='dt_marker'>Work Experience</dt>
+						<dd>1 year</dd>
+
+						<dt><img class='dt_marker'>What Are Live Feeds?</dt>
+						<dd>Similar to facebook news feed, we broadcast latest happenings at your event to a specific website from which people can check the status.</dd>
+
+						<dt><img class='dt_marker'>Advantages of having a website?</dt>
+						<dd>They will be safe and secure, bypassable by only a particular id and password. Can be viewed anywhere on the globe.</dd>
+
+						<dt><img class='dt_marker'>How will i get access to my content?</dt>
+						<dd>According to your plan, we will be doing various things like Website, Online Photo Album, etc. We will be providing you with the urls/links to them, with appropriate login details.</dd>
+
+						<dt><img class='dt_marker'>Quality Of Livestream</dt>
+						<dd>Varies from 480p to 1080p, depending on the location of the event.</dd>
+
+						<dt><img class='dt_marker'>Refund Policy</dt>
+						<dd>In case of cancellation of plan, Money will be refunded* </dd>
+					</dl>
+				</div>
+				<br><br>
+				<div class="jumboBlock">
+					
+					<div class="jHead"> Roxfort Group </div>
+					<div class="jDesc">Have a question?</div>
+					<a href="#"><div class="jBlock">Contact our Representative</div></a>
+
+				</div>
+
+			</div>
+		</div>
+		
+		<hr id="pageDivider">
+
+
+		</div>
+		<hr id="pageDivider">
+		
+		<div id="portfoliolink" class="portfolio">
+			<div id="portfolio_main">
+
+				<center><font color="red">Portfolio</font></center>
+	  
+		   </div>
+		   
+		   <div id="portfolio_Mcontent">
+		   		<br><br>HERE'S A SNEAK PEEK INTO OUR LIVES AND HOW IT REVOLVES AROUND CREATING VISUALS THAT TELL STORIES.
+		   </div>	
+			
+			<div class="portfolio_wrapper">
+				<div id="portfolio_body">
+				<center>
+					<img class="portfolio_image_r1" src="src/portfolio/portfolio_image-1.jpg">
+					<img class="portfolio_image_r1" src="src/portfolio/portfolio_image-2.jpg">
+					<img class="portfolio_image_r1" src="src/portfolio/portfolio_image-3.jpg">
+					<img class="portfolio_image_r1" src="src/portfolio/portfolio_image-4.jpg">
+					<br><br>
+					<img class="portfolio_image_r2" src="src/portfolio/portfolio_image-5.jpg">
+					<img class="portfolio_image_r2" src="src/portfolio/portfolio_image-6.jpg">
+					<img class="portfolio_image_r2" src="src/portfolio/portfolio_image-7.jpg">
+					<br><br>	
+					<img class="portfolio_image_r3" src="src/portfolio/portfolio_image-8.jpg">
+					<img class="portfolio_image_r3" src="src/portfolio/portfolio_image-9.jpg">
+				</center>
+				</div>
+			</div>	
+		</div>
+		
+
+		<hr id="pageDivider">
+
+		<div id="pricinglink">
+			
+			<div id="pricing_main">
+				<center><font color="red">Our</font>Plans</center>
+			</div>
+			<div id="pricing_Mcontent">
+				<center>With unique features like fully<br> customizable online album, with a completely custom domain name <br>and <br>event newsfeed <br>and<br> relatively low and affordable prices with the highest quality of work.<br>
+				We make sure that you are never disappointed.</center>
+			</div>
+
+			<div id="pricing_wrapper">
+								<div class="pricing1">
+								<br><center> <i class="fa fa-connectdevelop fa-5x"></i> </center>    							
+     							<h2> <center><font color="red">Bronze</font> Pack</center></h2>
+     								<p id="pricingBlock"><i class="fa fa-inr fa-lg"></i> 30,000/-</p>
+     								
+     									<p class="element">Online Album(website) </p>
+     									<hr id="elementDivider">
+     									<p class="element">Printed Album </p>
+     									<hr id="elementDivider">
+     									<p class="element">Wedding Film </p>
+     									<hr id="elementDivider">
+     									<p class="element">Pre/Post Wedding Shoot </p>
+     									<hr id="elementDivider">
+     									<p class="element">SMS Alerts </p>
+     									<hr id="elementDivider">
+     									<a href="#"><center><p class="learnMore">Learn More</p></center></a>
+
+     								
+	         					   	
+    						</div>
+    						
+     				 		<div class="pricing2">
+     				 			<center><br><i class="fa fa-ship fa-5x"></i></center>
+     							<h2><center><font color="red">Silver</font> Pack</center></h2>
+     								<p id="pricingBlock"><i class="fa fa-inr fa-lg"></i> 45,000/-</p>
+     									<p class="element">Online & Printed Album </p>
+     									<hr id="elementDivider">
+     									<p class="element">SMS Alerts</p>
+     									<hr id="elementDivider">
+     									<p class="element">Wedding Film</p>
+     									<hr id="elementDivider">
+     									<p class="element">Handmade Sketches</p>
+     									<hr id="elementDivider">
+     									<p class="element">Photo Stall</p>
+     									<hr id="elementDivider">
+     									<a href="#"><center><p class="learnMore">Learn More</p></center></a>
+     						</div>
+     						
+ 	 						<div class="pricing3">
+ 	 							<center><br><i class="fa fa-street-view fa-5x"></i></center>
+     							<h2><center><font color="red">Gold</font> Pack</center></h2>
+     								<p id="pricingBlock"><i class="fa fa-inr fa-lg"></i> 75,000/-</p>
+     									<p class="element">Online & Printed Album </p>
+     									<hr id="elementDivider">
+     									<p class="element">Framed Photographs </p>
+     									<hr id="elementDivider">
+     									<p class="element">Pre&Post Wedding Shoot </p>
+     									<hr id="elementDivider">
+     									<p class="element">Handmade Sketches</p>
+     									<hr id="elementDivider">
+     									<p class="element">Realtime News Feed</p>
+     									<hr id="elementDivider">
+     									<a href="#"><center><p class="learnMore">Learn More</p></center></a>
+    	 					</div>
+    	 					
+ 	 						<div class="pricing4">
+ 	 							<center><br><i class="fa fa-skyatlas fa-5x"></i></center>
+     							<h2><center><font color="red">Platinum</font> Pack</center></h2>
+     									<p id="pricingBlock"><i class="fa fa-inr fa-lg"></i> 1,25,000/-</p>
+     									<p class="element">Online & Printed Album </p>
+     									<hr id="elementDivider">
+     									<p class="element">Realtime News Feed </p>
+     									<hr id="elementDivider">
+     									<p class="element">SMS Alert </p>
+     									<hr id="elementDivider">
+     									<p class="element">Wedding Movie </p>
+     									<hr id="elementDivider">
+     									<p class="element">Framed Photos </p>
+     									<hr id="elementDivider">
+     									<a href="#"><center><p class="learnMore">Learn More</p></center></a>
+    	 					</div>
+    	 					
+    	 					<div class="pricing5">
+    	 						<center><br><i class="fa fa-cogs fa-5x"></i></center>
+     							<h2><center><font color="red">Add</font> Ons</center></h2>
+     								<p id="pricingBlock">Customizable</p>
+     								<p class="element">Plasma Screens </p>
+     									<hr id="elementDivider">
+     									<p class="element">Crane</p>
+     									<hr id="elementDivider">
+     									<p class="element">Drones </p>
+     									<hr id="elementDivider">
+     									<p class="element">Live Video Streaming </p>
+     									<hr id="elementDivider">
+     									<p class="element">Director's Cut </p>
+     									<hr id="elementDivider">
+     									<a href="#"><center><p class="learnMore">Learn More</p></center></a>
+    	 					</div>
+					
+				</div>
+ 			</div>
+
+		</div>
+
+		<hr id="pageDivider">
+		
+		<div  id="contactlink" class="contact">
+			<div id="contact_main">
+
+				<center><font color="red">Contact</font>US</center>
+	  
+		   </div>
+		   
+		   <div id="contact_Mcontent">
+		   		
+		   </div>	
+			
+			<div id="contact_body">
+				
+				<div id="contactForm">
+					<form id="contactForm">
+						Your Name (required): 
+						<br><input type="text" id="uName">
+						<br><br><br>
+						Your Email (required):
+						<br><input type="text" id="uEmail">
+						<br><br><br>
+						Subject:
+						<br><input type="text">
+						<br><br><br>
+						Message:
+						<br><textarea rows="4" cols=""></textarea>
+						<br>
+						<br><input type="button" value="Send" onclick="checkall()">
+					</form>
+				</div>
+
+				<div id="info">
+					Info
+					<br><br><br>
+					Lucknow:<br>529/GHA-262<br>
+					kalyanpur(W) , Lucknow.
+					<br><br><br>
+					Pune:<br>
+					4th Floor, <br>Yash Residency,<br> Pashan-Sus rd,<br> Pune-411045<br><br>
+					Phone - <br>+91 823 752 8208
+					<br><br>
+					Email - <br>roxfortgroup@gmail.com
+				</div>
+
+				<div id="brand">
+					<br>The Roxfort Group 
+					<br>
+					&
+					<br>
+					The BlackSheep Inc.
+					<br><br>
+					<div id="placeBlock">Pune, India</div><br>
+					<div id="placeBlock">Lucknow, India</div>
+
+				</div>
+
+				<div id="contactDesc"><br><br><br>
+				WE'D REALLY LOVE<br> TO HEAR FROM <br>YOU SO WHY<br> NOT DROP US<br> AN EMAIL AND<br> WE'LL GET<br> BACK TO YOU<br> AS SOON AS<br> WE CAN.
+				</div>
+
+			</div>
+		</div>
+
+		<hr id="pageDivider" style="opacity:0">
+
+		<div class="footer">
+			
+			<div id="footerBranding">
+				The BlackSheep Inc. & The Roxfort Group
+			</div>
+
+			<div id="aboutMe"><br><br>
+				<img id="memyImage" src="src/aboutUser/userProfileImage/userProfileImage-2.jpg">
+				<p id="myName">Saatvik Shukla</p>
+				<p id="myTag">The BlackSheep Inc.</p>
+				<p id="myDesc">Android Developer, Tech Enthusiast, Photographer, Calligraphist, Web Developer</p>
+				<p id="social">
+					<a href="http://www.Saatvikshukla.com" alt="My Website" target="_blank"><i class="fa fa-location-arrow fa-2x"></i></a>
+					<a href="http://www.facebook.com/Saatvik.shukla" alt="Facebook" target="_blank"><i class="fa fa-facebook-official fa-2x"></i></a>
+					<a href="http://www.github.com/SaatvikShukla" alt="Github" target="_blank"><i class="fa fa-github-square fa-2x"></i></i></a>
+					<a href="http://www.plus.google.com/+SaatvikShukla0" alt="Google+" target="_blank"><i class="fa fa-google-plus-square fa-2x"></i></i></a>
+					<a href="http://forum.xda-developers.com/donatetome.php?u=5416670" alt="Donate to me" target="_blank"><i class="fa fa-paypal fa-2x"></i></a>
+					<a href="http://www.instagram.com/Saatvikshukla" alt="instagram" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
+				</p>
+
+			</div>
+
+			<div otherSocials><br><br>
+				<img id="myImage" src="src/aboutUser/userProfileImage/rox.jpg">
+				<p id="myName">The Roxfort Group</p>
+				<p id="myTag" style="color:transparent">The BlackSheep Inc.</p>
+				<p id="myDesc">Roxfort Group is a dynamic team of talented individuals offering a variety of creative services</p>
+				<p id="social">
+					<a href="http://www.facebook.com/Saatvik.shukla" alt="Facebook" target="_blank"><i class="fa fa-facebook-official fa-2x"></i></a>
+					<a href="http://www.github.com/SaatvikShukla" alt="Github" target="_blank"><i class="fa fa-github-square fa-2x"></i></i></a>
+					<a href="http://www.plus.google.com/+SaatvikShukla0" alt="Google+" target="_blank"><i class="fa fa-google-plus-square fa-2x"></i></i></a>
+					<a href="http://forum.xda-developers.com/donatetome.php?u=5416670" alt="Donate to me" target="_blank"><i class="fa fa-paypal fa-2x"></i></a>
+					<a href="http://www.instagram.com/Saatvikshukla" alt="Facebook" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
+				</p>
+			</div>
+
+		</div>
+
+<!--------------JQUERY----------------------------------------------------------------------------------------------------------------------------------- -->		
+		<script>
+			
+		(function(){
+			var i =0;
+			var images = ['src/main-ss/main-slideshow-1.jpg','src/main-ss/main-slideshow-2.jpg','src/main-ss/main-slideshow-3.jpg','src/main-ss/main-slideshow-4.jpg','src/main-ss/main-slideshow-5.jpg','src/main-ss/main-slideshow-6.jpg','src/main-ss/main-slideshow-7.jpg','src/main-ss/main-slideshow-8.jpg'];
+			var image = $('#main-slideshow');
+            //Initial Background image setup
+			image.css('background-image', "url('src/main-ss/main-slideshow-"+5+".jpg')");
+            //Change image at regular intervals
+			setInterval(function(){  
+				image.fadeOut(1000, function () {
+				image.css('background-image', 'url(' + images [i++] +')');
+				image.fadeIn(1000);
+			   });
+			if(i == images.length)
+			i = 0;
+			}, 5000);           
+		})();
+
+		function progress(percent, $element) {
+   			var progressBarWidth = percent * $element.width() / 100;
+    		$element.find('div').animate({ width: progressBarWidth }, 900).html(percent + "%&nbsp;&nbsp;");
+		}
+
+		function animateProgressBars() {
+			//http://workshop.rs/2012/12/animated-progress-bar-in-4-lines-of-jquery/ 
+			// We depend upon the mouseover to initialize the animations and functions are called to track and increment the progress bar 
+			//percentages with  respect to that
+
+			progress(70, $('div.photography'));
+			progress(56, $('div.videography'));
+			progress(85, $('div.eventlive'));
+			progress(92, $('div.liveNewsfeed'));
+			progress(95, $('div.dCut'));
+			progress(65, $('div.impressions'));
+			progress(97, $('div.web'));
+		};
+		
+		(function whyusfaq(){
+		$('dd').filter(':nth-child(n+4)').addClass('hide')
+
+		$('dl').on('click', 'dt', function(){
+			$(this)
+				.next()
+				.slideDown(200)
+					.siblings('dd')
+						.slideUp(200);
+			});
+
+		})(); 
+
+		</script>
+    
+    </body>
+</html>
+<!--
+
+       [[[[[[[]]]]]]]]]]]]]]
+     [:::::::::::::::::::::::]
+    [::::[[[[::]]]]]]]::::::::]
+    [:::[              ]::::::]
+    [:::[               ]:::::]
+    [:::[               ]:::::]
+    [:::[               ]:::::]
+    [:::[             ]::::::]
+    [:::[   ]::::::::::::::]
+    [:::[   ]::::::::::::::]
+    [:::[             ]:::::]
+    [:::[              ]:::::]
+    [:::[               ]:::::]
+    [:::[      The       ]:::::]
+    [:::[   BlackSheep   ]:::::]
+    [:::[      Inc       ]:::::]
+    [:::[                ]:::::]
+    [:::[                ]:::::]
+    [:::[                ]:::::]
+    [::::[[[:]]]]]]]::::::::::]
+    [:::::::::::::::::::::::]
+    [[[[[[[[]]]]]]]]]]]]]]]
+
+-->
